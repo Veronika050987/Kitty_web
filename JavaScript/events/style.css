@@ -113,13 +113,13 @@ input {
 #display {
     /* Позиционируем таймер, чтобы он был виден поверх кота */
     position: absolute;
-    top: 30%; /* Выше, чем середина кота */
+    top: 22%; /* Выше, чем середина кота */
     left: 50%;
     transform: translateX(-50%);
     /* Стилизация таймера: белый текст для контраста с черным силуэтом */
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон, чтобы цифры были читаемы */
-    padding: 10px;
+    color:lightgoldenrodyellow;
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 12px;
     border-radius: 8px;
     text-align: center;
     z-index: 10; /* Убеждаемся, что он поверх кота */
